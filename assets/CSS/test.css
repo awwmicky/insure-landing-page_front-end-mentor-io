@@ -1,0 +1,48 @@
+html { border: 2px solid black; }
+body { border: 2px solid silver; }
+
+/* header { border: 2px solid gray; } */
+/* main { border: 2px solid gray; } */
+/* footer { border: 2px solid gray; } */
+
+/* header > .container-wrapper { border: 2px solid silver; } */
+/* main .container-wrapper { border: 2px solid lightgray; } */
+/* section > .container-wrapper { border: 2px solid lightgray; } */
+/* footer > .container-wrapper { border: 2px solid silver; } */
+
+/* HEADER */
+
+/* header .logo { border: 2px solid black; } */
+/* .nav-bar { border: 2px solid black; } */
+/* .nav-bar ul { border: 2px solid blue; } */
+/* .nav-bar li { border: 2px solid green; } */
+/* .nav-bar a { border: 2px solid red; } */
+.menu-bar { border: 2px solid black; }
+/* .menu-bar label { border: 2px solid gray; } */
+
+/* HERO */
+/* .hero-section { border: 2px solid darkgray; } */
+/* .hero-picture { border: 2px solid black; } */
+/* .hero-picture img { border: 2px solid red; } */
+/* .hero-content { border: 2px solid black; } */
+
+/* MAIN */
+/* .main-section { border: 2px solid darkgray; } */
+/* .main-heading { border: 2px solid black; } */
+/* .services-section { border: 2px solid black; } */
+/* .s-section { border: 2px solid gray; } */
+/* .s-section > * { border: 2px solid red; } */
+
+
+
+/* FOOTER */
+/* .footer-social-bar { border: 2px solid black; } */
+/* footer .logo { border: 2px solid black; } */
+/* .social-icons { border: 2px solid black; } */
+/* .s-icon { border: 2px solid black; } */
+/* .footer-nav { border: 2px solid black; } */
+/* .ftr-nav-section { border: 2px solid black; } */
+/* .ftr-nav-section-title { border: 2px solid gray; } */
+/* .ftr-nav-section ul { border: 2px solid silver; } */
+/* .ftr-nav-section li { border: 2px solid silver; } */
+/* .ftr-nav-section a { border: 2px solid silver; } */
