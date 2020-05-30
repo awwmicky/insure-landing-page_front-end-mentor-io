@@ -153,7 +153,7 @@ header .logo {
     .nav-bar {
         background-color: var(--very-dark-violet) !important;
         background: 
-            url("/assets/images/other/bg-pattern/bg-pattern-mobile-nav.svg")
+            url("../images/other/bg-pattern/bg-pattern-mobile-nav.svg")
             bottom no-repeat
         ;
         background-size: contain;
@@ -287,9 +287,9 @@ header .logo {
     .hero-section {
         background-color: var(--dark-violet) !important;
         background: 
-            url("/assets/images/other/bg-pattern/bg-pattern-intro-left-desktop.svg") 
+            url("../images/other/bg-pattern/bg-pattern-intro-left-desktop.svg") 
             bottom left no-repeat,
-            url("/assets/images/other/bg-pattern/bg-pattern-intro-right-desktop.svg") 
+            url("../images/other/bg-pattern/bg-pattern-intro-right-desktop.svg") 
             top right no-repeat
         ;
         height: 600px;
@@ -408,7 +408,7 @@ header .logo {
 .info-panel {
     background-color: var(--dark-violet) !important;
     background: 
-        url("/assets/images/other/bg-pattern/bg-pattern-how-we-work-mobile.svg") 
+        url("../images/other/bg-pattern/bg-pattern-how-we-work-mobile.svg") 
         no-repeat top right
     ;
 
@@ -437,7 +437,7 @@ header .logo {
 
     .info-panel {
         background: 
-            url("/assets/images/other/bg-pattern/bg-pattern-how-we-work-desktop.svg") 
+            url("../images/other/bg-pattern/bg-pattern-how-we-work-desktop.svg") 
             no-repeat right
         ;
         background-size: contain;
@@ -466,7 +466,7 @@ header .logo {
 footer {
     background-color: var(--very-light-gray) !important;
     background: 
-        url("/assets/images/other/bg-pattern/bg-pattern-footer-mobile.svg")
+        url("../images/other/bg-pattern/bg-pattern-footer-mobile.svg")
         top left no-repeat
     ;
 }
@@ -549,13 +549,6 @@ footer .logo {
 .ftr-nav-section a:hover::after { height: 2px; }
 
 @media (min-width: 820px) {
-    footer {
-        background: 
-            url("/assets/images/other/bg-pattern/bg-pattern-footer-desktop.svg")
-            top left no-repeat
-        ;
-    }
-
     footer > div {
         text-align: initial;
         padding: initial;
@@ -574,6 +567,13 @@ footer .logo {
 }
 
 @media (min-width: 455px) {
+    footer {
+        background: 
+            url("../images/other/bg-pattern/bg-pattern-footer-desktop.svg")
+            top left no-repeat
+        ;
+    }
+
     .footer-nav {
         display: flex;
         flex-flow: wrap;

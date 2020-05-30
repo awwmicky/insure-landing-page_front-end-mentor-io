@@ -15,7 +15,7 @@
     --off-white: #ccc;
     /* font-family */
     --Karla: 'Karla', sans-serif;
-    --DM-serif: DM Serif Display;
+    --DM-serif: DM Serif Display, sans-serif;
     --Krona: 'Krona One', sans-serif;
 }
 
@@ -34,7 +34,7 @@ html, body {
 
 body {
     /* text-align: center; */
-    background:#eee;
+    background: #ffffff;
     color: var(--dark-gray);
     line-height: 1;
     letter-spacing: .05em;
