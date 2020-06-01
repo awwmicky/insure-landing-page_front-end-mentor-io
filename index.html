@@ -7,7 +7,7 @@
 <meta name="keywords" content="HTML, CSS, JavaScript" />
 <meta name="description" content="[300 max-char]" />
 <meta name="author" content="[developer name]" />
-<title>Isure Landing Page | Front-End Mentor</title>
+<title>Insure Landing Page | Front-End Mentor</title>
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
@@ -30,6 +30,8 @@
 <header class="header">
     <div class="container-wrapper">
         <h1 class="logo">INSURE</h1>
+        <input type="checkbox" id="menu-btn" />
+        <label for="menu-btn" class="menu-bar"></label>
         <nav class="nav-bar">
             <ul>
                 <li>
@@ -49,17 +51,17 @@
                 </li>
                 <li>
                     <a href="#" class="cta-link">
-                        VIEW PLANS
+                        View Plans
                     </a>
                 </li>
             </ul>
         </nav>
-        <div class="menu-bar">
+        <!-- <div class="menu-bar">
             <span>
                 <input type="checkbox" id="show-menu" class="menu-btn" />
                 <label for="show-menu" class="show-menu">+</label>
             </span>
-        </div>
+        </div> -->
     </div>
 </header>
 
@@ -70,9 +72,9 @@
             <div class="hero-picture">
                 <img 
                     srcset=
-                    "./assets/images/other/image-intro-mobile.jpg 420w, 
-                    ./assets/images/other/image-intro-desktop.jpg 820w"
-                    sizes="(max-width: 420px) 420px, 820px"
+                    "./assets/images/other/image-intro-mobile.jpg 405w, 
+                    ./assets/images/other/image-intro-desktop.jpg 805w"
+                    sizes="(max-width: 405px) 405px, 805px"
                     src="./assets/images/other/image-intro-mobile.jpg" 
                     alt="hero image"
                     class="hero-image"
@@ -101,33 +103,54 @@
                 We're different
             </h2>
             <div class="services-section">
-                <div class="s-section">
-                    <img src="./assets/images/other/icon-btn/icon-snappy-process.svg" alt="snappy process">
-                    <h3 class="section-title">
-                        Snappy Process
-                    </h3>
-                    <p class="section-desc">
-                        Our application process can be completed in minutes, not hours. Don't get stuck filling in tedious forms.
-                    </p>
+                <div class="service">
+                    <img 
+                        src="./assets/images/other/icon-btn/icon-snappy-process.svg" 
+                        alt="snappy process"
+                        class="s-img"
+                    />
+                    <div class="s-text">
+                        <h3 class="section-title">
+                            Snappy Process
+                        </h3>
+                        <p class="section-desc">
+                            Our application process can be completed in minutes, not hours. Don't get stuck filling in tedious forms.
+                        </p>
+                    </div>
                 </div>
-                <div class="s-section">
-                    <img src="./assets/images/other/icon-btn/icon-affordable-prices.svg" alt="affordable prices">
-                    <h3 class="section-title">
-                        Affordable Prices
-                    </h3>
-                    <p class="section-desc">
-                        We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.
-                    </p>
+                
+                <div class="service">
+                    <img 
+                        src="./assets/images/other/icon-btn/icon-affordable-prices.svg" 
+                        alt="affordable prices"
+                        class="s-img"
+                    />
+                    <div class="s-text">
+                        <h3 class="section-title">
+                            Affordable Prices
+                        </h3>
+                        <p class="section-desc">
+                            We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.
+                        </p>
+                    </div>
                 </div>
-                <div class="s-section">
-                    <img src="./assets/images/other/icon-btn/icon-people-first.svg" alt="people first">
-                    <h3 class="section-title">
-                        People First
-                    </h3>
-                    <p class="section-desc">
-                        Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it.
-                    </p>
-                </div>
+
+                <div class="service">
+                    <img 
+                        src="./assets/images/other/icon-btn/icon-people-first.svg" 
+                        alt="people first"
+                        class="s-img"
+                    />
+                    <div class="s-text">
+                        <h3 class="section-title">
+                            People First
+                        </h3>
+                        <p class="section-desc">
+                            Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it.
+                        </p>
+                    </div>
+                </div> 
+               
             </div>
         </div>
     </section>
@@ -151,12 +174,30 @@
     <div class="container-wrapper">
         <div class="footer-social-bar">
             <h4 class="logo">INSURE</h4>
-            <div class="social-icons">
-                <img src="./assets/images/other/icon-social/icon-facebook.svg" alt="facebook-link" class="s-icon facebook"></img>
-                <img src="./assets/images/other/icon-social/icon-twitter.svg" alt="twitter-link" class="s-icon twitter"></img>
-                <img src="./assets/images/other/icon-social/icon-pinterest.svg" alt="pinterest-link" class="s-icon pinterest"></img>
-                <img src="./assets/images/other/icon-social/icon-instagram.svg" alt="instagram-link" class="s-icon instagram"></img>
-            </div>
+            <nav class="social-links">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/other/icon-social/icon-facebook.svg" alt="facebook-link" class="s-icon facebook"></img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/other/icon-social/icon-twitter.svg" alt="twitter-link" class="s-icon twitter"></img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/other/icon-social/icon-pinterest.svg" alt="pinterest-link" class="s-icon pinterest"></img>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./assets/images/other/icon-social/icon-instagram.svg" alt="instagram-link" class="s-icon instagram"></img>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
         <div class="footer-nav">
             <div class="ftr-nav-section">
@@ -195,9 +236,28 @@
             </div>
         </div>
     </div>
+    <p class="footer-info">
+        <span>
+            Challenge by
+            <a 
+                href="https://www.frontendmentor.io/solutions/insure-landing-page-html-css-flexbox-variables-QbcNO01Cj" 
+                rel="noopener noreferrer"
+                target="_blank"
+            >Front-End Mentor</a><i>.</i>
+        </span>
+
+        <span>
+            Coded by me,
+            <a 
+                href="https://github.com/awwmicky/insure-landing-page_front-end-mentor-io"
+                rel="noopener noreferrer"
+                target="_blank"
+            >Michael F. Alvarez</a><i>.</i>
+        </span>
+    </p>
 </footer>
 <!-- JavaScript -->
-<script type="text/javascript" src="./assets/JS/app.js"></script>
+<!-- <script type="text/javascript" src="./assets/JS/app.js"></script> -->
 <noscript>Enable JS to Run App</noscript>
 </body>
 </html>

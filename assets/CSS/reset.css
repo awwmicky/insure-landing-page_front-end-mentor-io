@@ -3,17 +3,17 @@
 /*  */ /* SECTION:  */ /* STUB:  */ /* ANCHOR:  */
 
 :root {
-    /* primary */
+/* Primary */
     --dark-violet: #2d2640;
     --grayish-blue: #95a9c6;
-    /* neutral */
+/* Neutral */
     --very-dark-violet: #2b272f;
     --dark-grayish-violet: #837d87;
     --very-light-gray: #fafafa;
     --light-gray: #C0C0C0;
     --dark-gray: #333;
     --off-white: #ccc;
-    /* font-family */
+/* Font-Family */
     --Karla: 'Karla', sans-serif;
     --DM-serif: DM Serif Display, sans-serif;
     --Krona: 'Krona One', sans-serif;
@@ -131,3 +131,10 @@ noscript {
 
 [hidden] { display: none; }
 [disabled] { background: #000; }
+
+/* 
+1200px+      (large screens)
+900px-1200px (tablet landscape)
+600px-900px  (tablet portrait)
+0-600px      (phones)
+*/

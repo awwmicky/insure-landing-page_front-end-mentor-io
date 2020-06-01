@@ -30,15 +30,18 @@
 /* .main-section { border: 2px solid darkgray; } */
 /* .main-heading { border: 2px solid black; } */
 /* .services-section { border: 2px solid black; } */
-/* .s-section { border: 2px solid gray; } */
-/* .s-section > * { border: 2px solid red; } */
-
+/* .service { border: 2px solid gray; } */
+/* .service > * { border: 2px solid red; } */
+/* .s-text > * { border: 2px solid lightcoral; } */
 
 
 /* FOOTER */
 /* .footer-social-bar { border: 2px solid black; } */
 /* footer .logo { border: 2px solid black; } */
-/* .social-icons { border: 2px solid black; } */
+/* .social-links { border: 2px solid black; } */
+/* .social-links ul { border: 2px solid gray; } */
+/* .social-links li { border: 2px solid darkgray; } */
+/* .social-links a { border: 2px solid silver; } */
 /* .s-icon { border: 2px solid black; } */
 /* .footer-nav { border: 2px solid black; } */
 /* .ftr-nav-section { border: 2px solid black; } */

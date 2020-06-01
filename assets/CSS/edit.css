@@ -1,3 +1,112 @@
+@media (max-width: 655px) {
+    .menu-bar { display: flex; }
+
+    .nav-bar,
+    .nav-bar ul,
+    .nav-bar li,
+    .nav-bar a
+    { 
+        width: 100%; 
+        height: 0;
+    }
+
+    .nav-bar,
+    .nav-bar ul,
+    .nav-bar li
+    { transition: height 0.5s ease-in; }
+
+    .nav-bar {
+        background-color: var(--very-dark-violet) !important;
+        background: 
+            url("../images/other/bg-pattern/bg-pattern-mobile-nav.svg")
+            bottom no-repeat
+        ;
+        background-size: contain;
+        
+        position: absolute;
+        /* top: 100%; */
+        top: var(--nav-size);
+        left: 0;
+        align-items: initial;
+    }
+
+    .nav-bar ul { flex-flow: column; }
+
+    .nav-bar a {
+        transition: color 0.25s ease-in-out;
+        /* background: #333; */
+        color: rgba(0,0,0,0);
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+
+    .nav-bar li:not(:first-child) { margin-left: initial; }
+
+    .nav-bar a:hover { background: var(--dark-grayish-violet); }
+    .nav-bar:hover a:not(.cta-link) { color: var(--very-light-gray); }
+    .nav-bar a:hover:not(.cta-link) { color: var(--grayish-blue); }
+
+    .cta-link {
+        display: none !important;
+        border-color: var(--very-light-gray);
+        margin: 0 2em;
+        padding: initial;
+        height: 75px !important;
+    }
+
+    .cta-link:hover {
+        background: var(--very-light-gray) !important;
+        color: var(--dark-gray);
+    }
+
+    /*  */
+
+    .nav-active,
+    .nav-active ul,
+    .nav-active li,
+    .nav-active a
+    { height: 100%; }
+
+    .nav-active {
+        /* background: #bbb; */
+        overflow: initial;
+        height: calc(100vh - var(--nav-size));
+        /* height: 400px; */
+    }
+
+    .nav-active ul { height: 400px; }
+
+    .nav-active a {
+        transition: color 0.3s ease-in-out 0.3s;
+        /* background: #333; */
+        /* color: inherit; */
+        color: rgba(255,255,255, 1);
+    }
+
+    .nav-active .cta-link {
+        display: flex !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
 .header {
     background: #ffffff;
     width: 100%;
